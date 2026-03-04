@@ -1,0 +1,28 @@
+{
+  "name": "orderdispatcher-rabbit-mq-broker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NestJS RabbitMQ broker",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/config": "^3.2.0",
+    "@nestjs/core": "^10.3.0",
+    "@nestjs/platform-express": "^11.1.15",
+    "amqplib": "^0.10.4",
+    "express": "^5.2.1",
+    "mssql": "^10.0.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/express": "^5.0.6",
+    "@types/mssql": "^9.1.6",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
